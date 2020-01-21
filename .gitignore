@@ -1,0 +1,23 @@
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# dependencies
+node_modules/
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+.env*
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
