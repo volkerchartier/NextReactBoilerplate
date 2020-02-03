@@ -17,14 +17,13 @@ export interface IThemeWrapper {
 
 export const theme: ITheme = {
   niceBlack: "#001F3F",
-  niceBG: "#0000ff"
+  niceBG: "#ff0fdd"
 };
 
 const GlobalStyle = createGlobalStyle<IThemeWrapper>`
   body {
     background-color: ${props => props.theme.niceBG};
     margin: 0 auto;
-    padding: 30px;
     color: ${props => props.theme.niceBlack};
   }
 `;
